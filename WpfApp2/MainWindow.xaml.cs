@@ -27,5 +27,15 @@ namespace WpfApp2
             InitializeComponent();
             DataContext = ViewModel;
         }
+
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.Connect();
+        }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.SendChatMessage();
+        }
     }
 }

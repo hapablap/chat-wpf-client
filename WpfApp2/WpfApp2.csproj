@@ -11,6 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="ChatProtocol">
+      <HintPath>..\..\WpfChatClient\ReferencedAssemblies\ChatProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientLibrary">
+      <HintPath>..\..\WpfChatClient\ReferencedAssemblies\ClientLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="connect.png" />
   </ItemGroup>
 
