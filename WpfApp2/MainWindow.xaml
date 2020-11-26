@@ -52,7 +52,9 @@
         <Rectangle Fill="Gray" Grid.Column="1" />
         
         <!-- Column 2 -->
-        <TextBlock Grid.Column="2" Text="Users" Padding="10" FontWeight="Bold"/>
+        <TextBlock Grid.Column="2" Text="Users" Padding="10" FontWeight="Bold" VerticalAlignment="Top"/>
+        <TextBlock Grid.Column="2" Text="Users Online:" Margin="10,10,25,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Name="UserCountOutput" Grid.Column="2" Text="{Binding UserOnlineCount, Mode=OneWay}" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top"/>
         <ListView Grid.Column="2" Margin="10,50,10,10">
         </ListView>
 
